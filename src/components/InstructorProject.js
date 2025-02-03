@@ -109,7 +109,7 @@ const InstructorDashboard = () => {
             return;
         }
         
-        }, []);
+        }, [email,navigate]);
       
 // logout function
         const handleLogout = () => {
